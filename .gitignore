@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ComfyUI Large Files (模型文件太大，不上传)
+ComfyUI/models/**/*.safetensors
+ComfyUI/models/**/*.ckpt
+ComfyUI/models/**/*.pth
+ComfyUI/models/**/*.bin
+ComfyUI/output/
+ComfyUI/input/
+ComfyUI/temp/
+
+# Cache and Logs
+.cache/
+*.log
+comfyui.log
+comfy.log
+minimax_h3_check_log.txt
+minimax_h3_comprehensive_log.txt
+
+# Sensitive Information
+*.key
+*.secret
+*.env
+tavily_key_index.txt
+.env.local
+.env.production
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Node Modules (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test Coverage
+coverage/
+.nyc_output/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+*.iml
+.idea/
+
+# Windows
+[Ww]indows/
+[Ww]in32/
+[Ww]in64/
+
+# Documentation build
+docs/_build/
