@@ -1,0 +1,8 @@
+﻿- **A quick Minimax H3 news round-up - 25th August 2026**: https://www.reddit.com/r/comfyui/comments/1vy4drz/a_quick_minimax_h3_news_roundup_25th_august_2026
+- **A quick Minimax H3 news round-up - 26th August 2026 : r/comfyui - Reddit**: https://www.reddit.com/r/comfyui/comments/1vyzvqi/a_quick_minimax_h3_news_roundup_26th_august_2026
+- **Recent ComfyUI Massive Improvements We Made ... - LinkedIn**: https://www.linkedin.com/pulse/recent-comfyui-massive-improvements-we-made-minimax-h3-g%C3%B6z%C3%BCkara-wqanf
+- **How To Use MiniMax H3 in ComfyUI: Best FREE AI Video Model of ...**: https://www.youtube.com/watch?v=d_wEd-fZcdg
+- **MiniMax H3 in ComfyUI: Day-0 Setup Guide (2K + Audio)**: https://www.qwe.edu.pl/tutorial/minimax-h3-comfyui-day-0-setup
+- **MiniMax H3 on Comfy â Open-Weight Video Model**: https://comfy.org/minimax-h3
+- **ComfyUI-Spectrum-MiniMax-H3: 30% Faster MiniMax H3 Generation | ComfyUI Wiki**: https://comfyui-wiki.com/en/news/2026-08-03-comfyui-spectrum-minimax-h3
+- **MiniMax H3 ComfyUI Workflow T2V & I2V Guide**: https://www.atlascloud.ai/blog/tips/minimax-h3-comfyui-workflow

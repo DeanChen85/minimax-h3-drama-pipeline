@@ -1,7 +1,7 @@
 # 🎬 Minimax H3 自动化短剧视频生成系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![ComfyUI](https://img.shields.io/badge/ComfyUI-0.33.2-blue)](https://github.com/comfyanonymous/ComfyUI)
+[![ComfyUI](https://img.shields.io/badge/ComfyUI-0.34.0-blue)](https://github.com/comfyanonymous/ComfyUI)
 [![RTX 3090](https://img.shields.io/badge/GPU-RTX%203090%2024GB-green)](https://www.nvidia.com/geforce/graphics-cards/30-series/rtx-3090/)
 [![Minimax H3](https://img.shields.io/badge/Model-MiniMax%20H3-orange)](https://github.com/MiniMax-AI/MiniMax-H3)
 
