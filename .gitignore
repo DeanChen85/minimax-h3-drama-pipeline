@@ -61,6 +61,7 @@ minimax_h3_comprehensive_log.txt
 tavily_key_index.txt
 .git_github_token.txt
 .git_tavily_keys.txt
+.feishu_webhook.txt
 .env.local
 .env.production
 

@@ -114,3 +114,19 @@ if ($hasChanges) {
 }
 
 Add-Content -Path $logFile -Value "[$timestamp] Cycle complete."
+
+# 发送飞书通知
+$feishuMsg = "📊 **Minimax H3 自动扫描报告**`n`n"
+$feishuMsg += "🔍 找到 $($allResults.Count) 条最新更新`n`n"
+
+$topResults = $allResults | Select-Object -First 5
+foreach ($result in $topResults) {
+    $feishuMsg += "📌 **$($result.Title)**`n"
+    $feishuMsg += "🔗 $($result.URL)`n`n"
+}
+
+$feishuMsg += "📂 完整报告已自动同步到 GitHub 分支`n"
+$feishuMsg += "🔗 https://github.com/DeanChen85/minimax-h3-drama-pipeline/blob/feature/spectrum-acceleration/latest_news.md"
+
+& "$cd\send_feishu_msg.ps1" $feishuMsg "📰 Minimax H3 最新动态" 2>&1 | Out-Null
+Add-Content -Path $logFile -Value "[$timestamp] Feishu notification sent""

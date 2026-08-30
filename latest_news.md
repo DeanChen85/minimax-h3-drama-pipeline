@@ -1,20 +1,44 @@
 ﻿# 馃攳 Minimax H3 Auto News Report
 
-**鏈€鍚庢洿鏂?*: 2026-08-30 15:25:34
+**鏈€鍚庢洿鏂?*: 2026-08-30 16:35:11
 **鎼滅储鑼冨洿**: GitHub, Reddit, Forum
-**浣跨敤 Key**: #4
+**浣跨敤 Key**: #3
 
 ---
 
-## 馃搶 A quick Minimax H3 news round-up - 18th August 2026
+## 馃搶 A quick Minimax H3 news round-up - 25th August 2026
 
-- **鏉ユ簮**: [https://www.reddit.com/r/comfyui/comments/1vrsspo/a_quick_minimax_h3_news_roundup_18th_august_2026](https://www.reddit.com/r/comfyui/comments/1vrsspo/a_quick_minimax_h3_news_roundup_18th_august_2026)
+- **鏉ユ簮**: [https://www.reddit.com/r/comfyui/comments/1vy4drz/a_quick_minimax_h3_news_roundup_25th_august_2026](https://www.reddit.com/r/comfyui/comments/1vy4drz/a_quick_minimax_h3_news_roundup_25th_august_2026)
 - **鏌ヨ鍏抽敭璇?*: Minimax H3 ComfyUI new update release August 2026
-- **鎽樿**: -> New ComfyUI-CGlide custom nodes for Minimax in ComfyUI. Including 'Glide Preview', a motion-preview node that lets you assess your video as ...Read more
+- **鎽樿**: The important workflow accelerator 'ComfyUI Spectrum MiniMax H3' continues to update. Now at v0.2.20, updated today.
 
 ---
 
-## 馃搶 Recent ComfyUI Massive Improvements We Made ... - LinkedIn
+## 馃搶 ComfyUI-MiniMax-H3-Promptor/updates.md at main
+
+- **鏉ユ簮**: [https://github.com/1038lab/ComfyUI-MiniMax-H3-Promptor/blob/main/updates.md](https://github.com/1038lab/ComfyUI-MiniMax-H3-Promptor/blob/main/updates.md)
+- **鏌ヨ鍏抽敭璇?*: Minimax H3 ComfyUI new update release August 2026
+- **鎽樿**: Raw
+
+Copy raw file
+
+Download raw file
+
+Outline
+
+Edit and raw actions
+
+# ComfyUI-Minimax-H3-Promptor Update Log
+
+## V1.3.0 (2026/08/18)
+
+### (Hollywood AI Director & Full-Reference Architecture)
+
+### ð¬ Major Highlight: The Two-Stage Hollywood AI Director & Screenwriter Engine [...] ### ð¥ï¸ Com
+
+---
+
+## 馃搶 Recent ComfyUI Massive Improvements We Made for ...
 
 - **鏉ユ簮**: [https://www.linkedin.com/pulse/recent-comfyui-massive-improvements-we-made-minimax-h3-g%C3%B6z%C3%BCkara-wqanf](https://www.linkedin.com/pulse/recent-comfyui-massive-improvements-we-made-minimax-h3-g%C3%B6z%C3%BCkara-wqanf)
 - **鏌ヨ鍏抽敭璇?*: Minimax H3 ComfyUI new update release August 2026
@@ -22,31 +46,11 @@
 
 ---
 
-## 馃搶 MiniMax H3 Gets Day-One Support in ComfyUI with Open Weights
+## 馃搶 A quick Minimax H3 news round-up - 18th August 2026 : r/comfyui - Reddit
 
-- **鏉ユ簮**: [https://www.kombitz.com/2026/08/03/minimax-h3-gets-day-one-support-in-comfyui-with-open-weights](https://www.kombitz.com/2026/08/03/minimax-h3-gets-day-one-support-in-comfyui-with-open-weights)
+- **鏉ユ簮**: [https://www.reddit.com/r/comfyui/comments/1vrsspo/a_quick_minimax_h3_news_roundup_18th_august_2026](https://www.reddit.com/r/comfyui/comments/1vrsspo/a_quick_minimax_h3_news_roundup_18th_august_2026)
 - **鏌ヨ鍏抽敭璇?*: Minimax H3 ComfyUI new update release August 2026
-- **鎽樿**: ## kombitz
-
-### Tech tips, tricks, how-tos and new products
-
-# MiniMax H3 Gets Day-One Support in ComfyUI with Open Weights
-
-August 3, 2026 amida168 Machine Learning 0
-
- 
-
-ComfyUI has announced day-one support for MiniMax H3, giving creators immediate access to one of the most anticipated open-weigh
-
----
-
-## 馃搶 For MiniMax H3: Installing and Generating with the Git Version of ComfyUI (SageAttention+etc. / Windows+CUDA)ï½ã¾ãã²ãa
-
-- **鏉ユ簮**: [https://note.com/mayu_hiraizumi/n/n49ab8a5cc132?hl=en](https://note.com/mayu_hiraizumi/n/n49ab8a5cc132?hl=en)
-- **鏌ヨ鍏抽敭璇?*: Minimax H3 ComfyUI new update release August 2026
-- **鎽樿**: Last update 2026-8-12  
-\ As the situation regarding MiniMax H3 is still evolving, the content of this article, including the models and workflows used, may be subject to revisions or changes.  
-\ The environment created using the steps in this article is not exclusive to MiniMax H3. It can also be 
+- **鎽樿**: Updated yesterday, with new features including the claimed ability to chain... "a sequence of H3 video clips around a single song".
 
 ---
 
@@ -106,43 +110,40 @@ New runtime: ComfyUI 0.32.0, which needed real work â its
 
 ---
 
-## 馃搶 MiniMax-H3 Multishot â Seamless Chain: multi-shot scenes that render as one continuous take (picture + audio) - v2.7 | Hailuo H3 by MiniMax Workflows | Civitai
+## 馃搶 GitHub - KursatAs/ComfyUI-H3-Multishot-Advance: Focused MiniMax-H3 multi-shot video nodes for ComfyUI. The Advance fork keeps the H3 long-form workflow focused: a small node surface, a unified loader, centralized controls, and a shot cache designed for fast iteration on multi-scene prompts. Â· GitHub
 
-- **鏉ユ簮**: [https://civitai.com/models/2833322/minimax-h3-multishot-seamless-chain-multi-shot-scenes-that-render-as-one-continuous-take-picture-audio](https://civitai.com/models/2833322/minimax-h3-multishot-seamless-chain-multi-shot-scenes-that-render-as-one-continuous-take-picture-audio)
+- **鏉ユ簮**: [https://github.com/KursatAs/ComfyUI-H3-Multishot-Advance](https://github.com/KursatAs/ComfyUI-H3-Multishot-Advance)
 - **鏌ヨ鍏抽敭璇?*: ComfyUI-H3-Multishot new version
-- **鎽樿**: Sign In
-
-homemodelsimagesvideos3D Modelshubsarticlescomicschallengesupdatesshop
-
-# MiniMax-H3 Multishot â Seamless Chain: multi-shot scenes that render as one continuous take (picture + audio)
-
-Updated: Aug 27, 2026
-
-base model
-multishotminimax-h3audiocomfyuivideo
-
-Download
-
-1variantavailable
-
-Arc
+- **鎽樿**: `report` now includes lint warnings/suggestions, and the extra `compiled_preview` output shows the exact final prompt text as markdown.
+ `Multishot Advance Markdown Preview` displays any connected STRING/TEXT value in its node UI and passes the same text through from `text_out`. [...] The Builder cr
 
 ---
 
-## 馃搶 I released a ComfyUI node for resumable multi-shot MiniMax H3 ...
+## 馃搶 Changelog - ComfyUI Official Documentation
+
+- **鏉ユ簮**: [https://docs.comfy.org/changelog](https://docs.comfy.org/changelog)
+- **鏌ヨ鍏抽敭璇?*: ComfyUI-H3-Multishot new version
+- **鎽樿**: â
+
+November 25, 2025
+
+New Model Support
+
+ Added comprehensive Flux 2 model support including Flux 2 Pro API nodes
+ Enhanced HunyuanVideo workflows with new variants and improved display names
+
+API & Security Improvements
+
+ Improved API security with Content Security Policy headers
+ Fixed public AP
+
+---
+
+## 馃搶 I released a ComfyUI node for resumable multi-shot ...
 
 - **鏉ユ簮**: [https://www.reddit.com/r/StableDiffusion/comments/1vpw7c5/i_released_a_comfyui_node_for_resumable_multishot](https://www.reddit.com/r/StableDiffusion/comments/1vpw7c5/i_released_a_comfyui_node_for_resumable_multishot)
 - **鏌ヨ鍏抽敭璇?*: ComfyUI-H3-Multishot new version
-- **鎽樿**: [Update/Release] Enhanced MiniMax H3 Creator for ComfyUI: Multi-Shot 60s Timelines, Resizable Satellite Stage, & Ollama/LM
-
----
-
-## 馃搶 H3 MultiRef Update 6: Music Video and AV Workflows | ComfyUI Wiki
-
-- **鏉ユ簮**: [https://comfyui-wiki.com/en/news/2026-08-17-h3-motion-context-multiref-update-6](https://comfyui-wiki.com/en/news/2026-08-17-h3-motion-context-multiref-update-6)
-- **鏌ヨ鍏抽敭璇?*: ComfyUI-H3-Multishot new version
-- **鎽樿**: Checkpoint-free direct-latent chains. Both long-form workflows now pass each sampler's video latent tail straight into the next masked-context node. The Update-5 disk-checkpoint nodes are no longer registered.
- Direct streaming output. New final-output nodes decode one clip at a time and stream comp
+- **鎽樿**: [Update/Release] Enhanced MiniMax H3 Creator for ComfyUI: Multi-Shot 60s Timelines, Resizable Satellite Stage, & Ollama/LM Studio Refiner
 
 ---
 
