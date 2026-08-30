@@ -22,10 +22,10 @@
 
 ### 系统要求
 
-- **GPU**: NVIDIA RTX 3090 (24GB VRAM) - *已验证*
+- **GPU**: NVIDIA RTX 3090 (24GB VRAM)
 - **CPU**: Intel Xeon或同等性能处理器
-- **内存**: 32GB RAM (推荐64GB)
-- **存储**: 500GB可用空间 (模型文件约100GB)
+- **内存**: 64GB RAM 
+- **存储**: 500GB可用空间 (模型文件约200GB)
 - **系统**: Windows 10/11 或 Linux
 - **Python**: 3.10+
 - **ComfyUI**: 0.33.2+ (建议升级到0.34.0)
