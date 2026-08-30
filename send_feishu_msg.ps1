@@ -1,4 +1,4 @@
-# Feishu Message Send Script - Final version
+# Feishu Message Send Script - Supports both Chinese and Emoji
 # Usage: .\send_feishu_msg.ps1 "message" "title"
 
 $ErrorActionPreference = "Stop"
@@ -28,11 +28,35 @@ if ($args.Count -ge 2) {
 
 # Build JSON using hashtable - PowerShell handles encoding
 $payload = @{
-    msg_type = "text"
-    content  = @{
-        text = "$Title`n`n$Message`n`nTime: $timestamp"
+    msg_type = "interactive"
+    card     = @{
+        header = @{
+            title = @{
+                tag     = "plain_text"
+                content = $Title
+            }
+            template = "blue"
+        }
+        elements = @(
+            @{
+                tag  = "div"
+                text = @{
+                    tag     = "plain_text"
+                    content = $Message
+                }
+            }
+            @{
+                tag  = "note"
+                elements = @(
+                    @{
+                        tag     = "plain_text"
+                        content = "Time: $timestamp | Source: GitHub Auto Monitor"
+                    }
+                )
+            }
+        )
     }
-} | ConvertTo-Json -Depth 5
+} | ConvertTo-Json -Depth 10
 
 # Save to UTF-8 file without BOM
 $tempFile = [System.IO.Path]::GetTempFileName()
