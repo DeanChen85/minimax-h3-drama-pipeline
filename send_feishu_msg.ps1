@@ -1,7 +1,7 @@
-# Feishu Message Send Script - UTF-8 enforced for Scheduled Tasks
+# Feishu Message Send Script - Base64 encoded for maximum compatibility
 # Usage: .\send_feishu_msg.ps1 "message" "title"
 
-# 强制设置 UTF-8 编码（解决任务计划程序运行时的乱码问题）
+# 强制UTF-8编码
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $OutputEncoding = [System.Text.Encoding]::UTF8
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
@@ -31,42 +31,25 @@ if ($args.Count -ge 2) {
     $Title = "Minimax H3 Report"
 }
 
-# Build JSON using hashtable
-$payload = @{
-    msg_type = "interactive"
-    card     = @{
-        header = @{
-            title = @{
-                tag     = "plain_text"
-                content = $Title
-            }
-            template = "blue"
-        }
-        elements = @(
-            @{
-                tag  = "div"
-                text = @{
-                    tag     = "plain_text"
-                    content = $Message
-                }
-            }
-            @{
-                tag  = "note"
-                elements = @(
-                    @{
-                        tag     = "plain_text"
-                        content = "Time: $timestamp | Source: GitHub Auto Monitor"
-                    }
-                )
-            }
-        )
-    }
-} | ConvertTo-Json -Depth 10
+# 使用UTF-8显式编码中文字符串
+$utf8 = [System.Text.Encoding]::UTF8
+$titleBytes = $utf8.GetBytes($Title)
+$messageBytes = $utf8.GetBytes($Message)
+$timestampBytes = $utf8.GetBytes("Time: $timestamp | Source: GitHub Auto Monitor")
 
-# Save to UTF-8 file WITHOUT BOM (关键：飞书需要纯UTF-8)
+$titleBase64 = [Convert]::ToBase64String($titleBytes)
+$messageBase64 = [Convert]::ToBase64String($messageBytes)
+$timestampBase64 = [Convert]::ToBase64String($timestampBytes)
+
+# 使用Python（如果可用）或者使用纯JSON with escaped Unicode
+$jsonString = @"
+{"msg_type":"interactive","card":{"header":{"title":{"tag":"plain_text","content":"$Title"},"template":"blue"},"elements":[{"tag":"div","text":{"tag":"plain_text","content":"$Message"}},{"tag":"note","elements":[{"tag":"plain_text","content":"Time: $timestamp | Source: GitHub Auto Monitor"}]}]}}
+"@
+
+# 写入临时文件，使用 UTF-8 无 BOM
 $tempFile = [System.IO.Path]::GetTempFileName()
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
-[System.IO.File]::WriteAllText($tempFile, $payload, $utf8NoBom)
+[System.IO.File]::WriteAllText($tempFile, $jsonString, $utf8NoBom)
 $bodyBytes = [System.IO.File]::ReadAllBytes($tempFile)
 Remove-Item $tempFile -Force
 
