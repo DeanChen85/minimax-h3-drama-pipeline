@@ -1,4 +1,8 @@
 # Minimax H3 Auto News Radar - 每 6 小时执行
+# 强制UTF-8编码，解决任务计划程序乱码
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+
 $ErrorActionPreference = "Continue"
 
 $cd = "G:\ComfyUI-aki-v3"

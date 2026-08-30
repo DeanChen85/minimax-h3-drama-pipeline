@@ -1,5 +1,10 @@
-# Feishu Message Send Script - Supports both Chinese and Emoji
+# Feishu Message Send Script - UTF-8 enforced for Scheduled Tasks
 # Usage: .\send_feishu_msg.ps1 "message" "title"
+
+# 强制设置 UTF-8 编码（解决任务计划程序运行时的乱码问题）
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
 $ErrorActionPreference = "Stop"
 
@@ -26,7 +31,7 @@ if ($args.Count -ge 2) {
     $Title = "Minimax H3 Report"
 }
 
-# Build JSON using hashtable - PowerShell handles encoding
+# Build JSON using hashtable
 $payload = @{
     msg_type = "interactive"
     card     = @{
@@ -58,7 +63,7 @@ $payload = @{
     }
 } | ConvertTo-Json -Depth 10
 
-# Save to UTF-8 file without BOM
+# Save to UTF-8 file WITHOUT BOM (关键：飞书需要纯UTF-8)
 $tempFile = [System.IO.Path]::GetTempFileName()
 $utf8NoBom = New-Object System.Text.UTF8Encoding($false)
 [System.IO.File]::WriteAllText($tempFile, $payload, $utf8NoBom)
